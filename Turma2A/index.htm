@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="wapper-two">
+
+        <div class="box-code">
+
+            <p id="b">O codigo é assim e bla bla</p>
+
+            <div class="code-back">
+                <p id="code">now = new Date</p>
+            </div>
+
+            <p id="b">Assim</p>
+
+            <div class="code-back">
+                <p id="code">result = document.getElementById('result');</p>
+            </div>
+
+            <p id="b">E depois assim</p>
+
+            <div class="code-back">
+                <p id="code">result.innerHTML = ("Hoje é " + now.getDate() + " do " + now.getMonth() + " de " + now.getFullYear())</p>
+            </div>
+
+        </div>
+
+        <div class="box-result">
+            <p id="b">Resultado:</p>
+            <div class="code-back">
+                <p id="a"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script language=javascript type="text/javascript">
+    now = new Date
+    a = document.getElementById('a');
+    a.innerHTML = ("Hoje é " + now.getDate() + " do " + now.getMonth() + " de " + now.getFullYear())
+</script>
+
+</html>
